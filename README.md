@@ -2,7 +2,7 @@
 
 ## Features
 
-- texlive 2019 (latest)
+- Dockerfile is based on ``mirisbowring/texlive_ctan_full:2019`` which comes with the support for texlive 2019
 - latexindent is fully supported
 - seamless git integration
 
