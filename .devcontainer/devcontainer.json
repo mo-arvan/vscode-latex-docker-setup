@@ -1,0 +1,26 @@
+
+{
+  "name": "latex-env",
+  "context": "..",
+  "dockerFile": "Dockerfile",
+  "mounts": [
+    "source=${localEnv:HOME}${localEnv:USERPROFILE}/.gitconfig,target=/home/latex/.gitconfig,type=bind,consistency=cached"
+  ],
+  "settings": {
+    "terminal.integrated.shell.linux": null
+  },
+  "extensions": [
+    "james-yu.latex-workshop",
+    "tecosaur.latex-utilities",
+    "streetsidesoftware.code-spell-checker",
+    "yzhang.markdown-all-in-one",
+    "DavidAnson.vscode-markdownlint",
+    "stkb.rewrap",
+    "TabNine.tabnine-vscode",
+    "ms-azuretools.vscode-docker",
+    "VisualStudioExptTeam.vscodeintellicode",
+    "ban.spellright",
+    "eamodio.gitlens",
+    "wayou.vscode-todo-highlight"
+  ]
+}

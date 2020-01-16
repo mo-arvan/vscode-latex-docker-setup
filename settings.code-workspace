@@ -1,0 +1,15 @@
+{
+	"folders": [
+    {
+      "path": "."
+    }
+  ],
+	"settings": {
+		"editor.tabSize": 2, 
+		"editor.insertSpaces": true,
+		"editor.detectIndentation": false,
+		"editor.wordWrap": "on",
+		"latex-workshop.latex.outDir": "%DIR%/out",
+		"latex-workshop.synctex.afterBuild.enabled": true
+	}
+}
